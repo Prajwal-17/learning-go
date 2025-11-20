@@ -12,6 +12,7 @@ func variables() {
 	name = "rahul" // reassign name variable
 
 	// shorthand for declaring and initializing
+	// type is infered automatically
 	clg_name := "bit"
 
 	fmt.Println("variables")
