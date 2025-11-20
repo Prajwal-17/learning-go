@@ -5,6 +5,10 @@ import "fmt"
 func main() {
 	foreg1()
 	while()
+	for_range()
+
+	statments(4)
+	swtch()
 }
 
 func foreg1() {
@@ -13,6 +17,14 @@ func foreg1() {
 		sum += i
 	}
 	fmt.Println(sum)
+}
+
+func for_range() {
+	sum := 0
+	for i := range 10 {
+		sum += i
+	}
+	fmt.Println("for range", sum)
 }
 
 func while() {
