@@ -15,6 +15,19 @@
   - automatic memory management
   - Go runs without a runtime(JVM, node)
   - packages & modules system
+- Go is a multi paradigm language and has
+  - functions
+  - structs
+  - methods
+  - interfaces
+  - closures (functional feature)
+  - goroutines & channels (concurrency model)
+- Go does NOT have:
+  - classes
+  - inheritance
+  - generics in OOP style
+  - method overloading
+  - operator overloading
 
 ---
 
