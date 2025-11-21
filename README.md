@@ -1,5 +1,7 @@
 # Go lang
 
+- https://gophercises.com/
+
 - Go was created by Google to solve specific problems
   - Huge systems
   - Too many dependencies
