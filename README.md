@@ -31,6 +31,31 @@
 
 ---
 
+- [x] helloworld
+- [x] external packages
+- [x] variables
+- [x] constants
+- [x] types
+- [x] functions
+  - [x] multiple return functions
+  - [ ] variadic functions
+- [x] loops & flow-statements
+  - [x] for,range
+  - [x] if/else
+  - [x] switch
+- [x] arrays
+- [x] slices
+- [x] maps
+- [x] pointers
+- [ ] strings & runes
+- [ ] clousers
+- [ ] recursion
+- [x] structs, struct methods
+- [ ] interfaces
+- [ ] enums
+
+---
+
 - Create a new module
 
 ```go
