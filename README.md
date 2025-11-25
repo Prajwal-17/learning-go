@@ -1,6 +1,9 @@
 # Go lang
 
 - https://gophercises.com/
+- https://go.dev/doc/effective_go
+- https://quii.gitbook.io/learn-go-with-tests
+- https://100go.co/
 
 - Go was created by Google to solve specific problems
   - Huge systems
@@ -47,12 +50,13 @@
 - [x] slices
 - [x] maps
 - [x] pointers
-- [ ] strings & runes
 - [ ] clousers
 - [ ] recursion
 - [x] structs, struct methods
-- [ ] interfaces
+- [x] interfaces
 - [ ] enums
+- [x] error handling
+- [ ] go modules
 
 ---
 
