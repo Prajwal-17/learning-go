@@ -4,6 +4,7 @@ import "fmt"
 
 // maps are Go built in data types that are key value pairs(hash-based)
 // they are unordered collection
+// they store key values which allow fast lookup
 
 func maps() {
 	m := make(map[string]int) // keys string & int values
