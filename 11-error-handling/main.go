@@ -11,7 +11,6 @@ package main
 
 import (
 	"errors"
-	"fmt"
 )
 
 func divide(a, b float64) (float64, error) {
@@ -22,10 +21,11 @@ func divide(a, b float64) (float64, error) {
 }
 
 func main() {
-	result, err := divide(4, 0)
-	if err != nil {
-		fmt.Println("Err occured", err)
-		return
-	}
-	fmt.Println("divide value", result)
+	// result, err := divide(4, 0)
+	// if err != nil {
+	// 	fmt.Println("Err occured", err)
+	// 	return
+	// }
+	// fmt.Println("divide value", result)
+	errorHandling()
 }
