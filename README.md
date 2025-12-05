@@ -1,9 +1,12 @@
 # Go lang
 
+- Go lang specification - https://go.dev/ref/spec
+- Effective writing - https://go.dev/doc/effective_go
+
 - https://gophercises.com/
-- https://go.dev/doc/effective_go
 - https://quii.gitbook.io/learn-go-with-tests
 - https://100go.co/
+- https://github.com/apache/answer
 
 - Go was created by Google to solve specific problems
   - Huge systems
