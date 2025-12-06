@@ -44,7 +44,7 @@
 - [x] types
 - [x] functions
   - [x] multiple return functions
-  - [ ] variadic functions
+  - [x] variadic functions
 - [x] loops & flow-statements
   - [x] for,range
   - [x] if/else
