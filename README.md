@@ -2,6 +2,7 @@
 
 - Go lang specification - https://go.dev/ref/spec
 - Effective writing - https://go.dev/doc/effective_go
+- Go web dev - https://gowebexamples.com/
 
 - https://gophercises.com/
 - https://quii.gitbook.io/learn-go-with-tests
