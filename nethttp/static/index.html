@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Go (Golang) Features</title>
+        <!-- Load Tailwind CSS -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        <style>
+            /* Custom styles for a clean, modern look */
+            @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+            body {
+                font-family: "Inter", sans-serif;
+                background-color: #f7f7f7;
+                color: #1a1a1a;
+            }
+            .feature-card {
+                transition:
+                    transform 0.3s ease,
+                    box-shadow 0.3s ease;
+                cursor: pointer;
+            }
+            .feature-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+            }
+            .gopher-icon {
+                /* Go's iconic Gopher blue color */
+                color: #00add8;
+            }
+        </style>
+    </head>
+    <body class="min-h-screen flex items-center justify-center p-4">
+        <div
+            class="w-full max-w-4xl bg-white rounded-xl shadow-2xl p-6 md:p-10"
+        >
+            <!-- Header Section -->
+            <header class="text-center mb-10">
+                <div class="text-6xl gopher-icon mb-2">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="currentColor"
+                        viewBox="0 0 512 512"
+                        class="w-12 h-12 inline-block"
+                    >
+                        <!-- Placeholder for Gopher-like icon (a simple stylized 'G') -->
+                        <path
+                            d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 160h80c13.3 0 24 10.7 24 24V320c0 13.3-10.7 24-24 24H216c-13.3 0-24-10.7-24-24V184c0-13.3 10.7-24 24-24z"
+                        />
+                    </svg>
+                </div>
+                <h1 class="text-4xl font-extrabold text-gray-800 mb-2">
+                    The Power of Go (Golang)
+                </h1>
+                <p class="text-xl text-gray-500">
+                    Simple, Reliable, and Efficient Software.
+                </p>
+            </header>
+
+            <!-- Main Features Grid -->
+            <section
+                id="features-grid"
+                class="grid grid-cols-1 md:grid-cols-2 gap-6"
+            >
+                <!-- Feature Cards will be injected here by JavaScript -->
+            </section>
+
+            <!-- Call to Action / Interactive Section -->
+            <section class="text-center mt-12 pt-6 border-t border-gray-100">
+                <p class="text-gray-600 mb-4">
+                    Ready to build fast, concurrent systems?
+                </p>
+                <button
+                    id="cta-button"
+                    class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transform transition duration-300 ease-in-out hover:scale-105 active:scale-95"
+                >
+                    Discover How Go Works
+                </button>
+                <p
+                    id="cta-message"
+                    class="mt-4 text-green-600 font-semibold hidden transition-opacity duration-500"
+                >
+                    Excellent choice! Start your journey at go.dev!
+                </p>
+            </section>
+        </div>
+
+        <script src="./index.js"></script>
+    </body>
+</html>
