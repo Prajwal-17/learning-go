@@ -60,7 +60,7 @@
 - [ ] recursion
 - [x] structs, struct methods
 - [x] interfaces
-- [ ] enums
+- [x] enums
 - [x] error handling
 - [ ] go modules
 
