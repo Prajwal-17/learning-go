@@ -62,7 +62,9 @@
 - [x] interfaces
 - [x] enums
 - [x] error handling
-- [ ] go modules
+- [x] go modules
+- [x] net/http
+- [x] database/sql, db connection
 
 ---
 

@@ -5,6 +5,11 @@ go 1.23.3
 require rsc.io/quote v1.5.2
 
 require (
-	golang.org/x/text v0.0.0-20170915032832-14c0d48ead0c // indirect
+	github.com/jackc/pgpassfile v1.0.0 // indirect
+	github.com/jackc/pgservicefile v0.0.0-20240606120523-5a60cdf6a761 // indirect
+	github.com/jackc/pgx/v5 v5.7.6 // indirect
+	github.com/lib/pq v1.10.9 // indirect
+	golang.org/x/crypto v0.37.0 // indirect
+	golang.org/x/text v0.24.0 // indirect
 	rsc.io/sampler v1.3.0 // indirect
 )
