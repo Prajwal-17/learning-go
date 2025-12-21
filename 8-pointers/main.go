@@ -18,3 +18,11 @@ func main() {
 	fmt.Println("score value:", score)
 	fmt.Println("new value of pointer p:", *p)
 }
+
+// --- OUTPUT ---
+// score: 300
+// memory address of original score variable: 0xc000012130
+// value address of pointer: 300
+// memory address of pointer p: 0xc00005e048
+// score value: 500
+// new value of pointer p: 500

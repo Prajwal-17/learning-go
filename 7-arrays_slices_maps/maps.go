@@ -6,6 +6,9 @@ import "fmt"
 // they are unordered collection
 // they store key values which allow fast lookup
 
+// STRUCTURE OF A MAP
+// map[k1:230 k2:324]
+
 func maps() {
 	m := make(map[string]int) // keys string & int values
 	m["k1"] = 230

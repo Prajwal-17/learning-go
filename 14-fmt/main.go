@@ -32,3 +32,17 @@ func main() {
 	fmt.Print(name2, " is ", age, " years old.\n")
 	print("hello world\n")
 }
+
+// --- OUTPUT ---
+/*
+type is string
+Base 2 representation - 11101010
+Base 8 representation - 352
+Base 10 representation - 234
+Base 16 representation - ea
+Base 16 representation - EA
+Unicode representation - U+00EA
+prajwal
+Kim is 22 years old.
+hello world
+*/
